@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xccdf:Tailoring xmlns:xccdf="http://checklists.nist.gov/xccdf/1.2"
+                 id="xccdf_com.altlinux_tailoring_fstek">
+  <xccdf:benchmark href="/root/scap-security-guide-0.1.78/build/ssg-rhel8-ds.xml"/>
+  <xccdf:version time="2026-03-15T15:30:00+03:00">1.0</xccdf:version>
+  <xccdf:Profile id="xccdf_org.ssgproject.content_profile_fstek"
+                 extends="xccdf_org.ssgproject.content_profile_ospp">
+    <xccdf:title xml:lang="ru">Профиль для аудита соответствия ОС Альт требованиям ФСТЭК</xccdf:title>
+    <xccdf:description xml:lang="ru">
+      Адаптированный профиль на основе OSPP для проверки ALT Workstation 11.1
+    </xccdf:description>
+  </xccdf:Profile>
+</xccdf:Tailoring>
